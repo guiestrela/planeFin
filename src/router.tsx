@@ -1,7 +1,9 @@
+import { RootLayout } from '@/src/components/layout/Rootlayout'
 import { createBrowserRouter } from 'react-router-dom'
 
 export const router = createBrowserRouter([
   {
+    element: <RootLayout />,
     children: [
       {
         path: '/',
